@@ -46,6 +46,7 @@ Both apps read from a single `.env` at the project root.
 | `VITE_SHARED_SECRET`| Frontend   | Sent as `Authorization: Bearer` header |
 
 > Both variables must hold the same value. `setup.sh` handles this automatically.
+> WARNING: while this is fine for local use this IS NOT production-ready – a live version of this should use JWT or similar as the VITE_SHARED_SECRET is sent in the Bearer header currently
 
 ## API
 
