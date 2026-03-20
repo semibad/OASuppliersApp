@@ -2,6 +2,8 @@
 
 A supplier rate management tool. View suppliers and their pricing rates, and identify suppliers with overlapping rate periods.
 
+![OA Suppliers App — overlaps view](example.png)
+
 ## Structure
 
 ```
