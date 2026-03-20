@@ -4,6 +4,11 @@ A supplier rate management tool. View suppliers and their pricing rates, and ide
 
 ![OA Suppliers App — overlaps view](example.png)
 
+## Notes for reviewer
+- The API setup is quite lightweight – I played to the whistle a little on this one and built it to support the minimal use-case set out in the brief, focussing on tools that would work well in a local demo format, while meeting the brief's requirements.
+- The authentication is utiliatarian and based on it being a local-only application – it is not production-ready, but I decided a more thorough approach was unnecessary given the limitations of the task. I would likely use a JWT solution for this application if I expected to develop it any further than a simple demo.
+- This project was generated largely using Claude Code as recommended in the brief, with some manual changes / refactors.
+
 ## Structure
 
 ```
